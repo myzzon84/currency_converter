@@ -1,0 +1,67 @@
+.appWrapper{
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color: rgb(199, 199, 199);
+
+    .selectedBank{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .bank{
+        width: 100px;
+        height: 20px;
+        border: 1px solid black;
+        background-color: aqua;
+        text-align: center;
+        cursor: pointer;
+        margin: 5px 15px;
+    }
+
+    .selected{
+        border-radius: 7px;
+        background-color: blue;
+    }
+
+    .currentBankCourse{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        .info{
+            margin: 5px 15px;
+            font-size: 20px;
+        }
+    }
+
+    .calculatorWrapper{
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+
+        .block{
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .title{
+            font-size: 20px;
+            width: 60px;
+        }
+
+        .input{
+            width: 150px;
+            height: 30px;
+            font-size: 16px;
+            font-weight: 900;
+        }
+    }
+
+    .currentBankTitle{
+        padding: 5px 15px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
